@@ -1,0 +1,41 @@
+.download{
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.download h1{
+	color: black;
+	text-align: center;
+}
+
+.download a{
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.download a{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	border: 0px solid;
+	border-radius: 5px;
+	padding: 5px;
+	transition: 0.6s ease;
+}
+
+.download a:hover{
+	color: white;
+	background-color: grey;
+}
+
+.download p{
+	position: absolute;
+	top: 300%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+} 
