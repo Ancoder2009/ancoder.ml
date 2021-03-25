@@ -36,9 +36,9 @@
 	<!------------------------------------Blobby-------------------------------------->
 	<div id="blobby" class="blobby">
 		<script>
-			document.getElementById("egg").className='ancoder-emojify bumdo-emoji'; document.getElementById("egg").innerHTML = '';
+			function display(){document.getElementById("egg").className='ancoder-emojify bumdo-emoji'; document.getElementById("egg").innerHTML = '';}
 		</script>
-		<h1>Bl<span id="egg" onmouseover="" class="">o</span>bby Virtual Pet</h1>
+		<h1>Bl<span id="egg" onmouseover="display()" class="">o</span>bby Virtual Pet</h1>
 		<p>
 			Blobby Virtual Pet is a virtual pet game where you can take care of your pet,<br> 
 			Blobby. You can feed him customize him and more. 
